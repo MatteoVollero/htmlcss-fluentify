@@ -60,3 +60,76 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.inizio-corpo{
+  text-align: center;
+  height: 70px;
+  background-color: lightgrey;
+}
+
+.inizio-corpo h3{
+    padding-top: 10px;
+}
+
+.inizio-corpo p{
+  color: grey;
+}
+
+.blocco{
+
+  width: 18%;
+  margin-left: 15%;
+  /* height: 200px; */
+  text-align: center;
+  float: left;
+
+}
+.blocco2{
+
+  width: 18%;
+  margin-left: 7%;
+  /* height: 200px; */
+  text-align: center;
+  float: left;
+
+}
+
+
+.immagine{
+  height: 100px;
+  width: 100px;
+  margin-left: 30%;
+  background-image: url(../img/profile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.immagine2{
+  height: 100px;
+  width: 100px;
+  margin-left: 30%;
+  background-image: url(../img/computer.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.immagine3{
+  height: 100px;
+  width: 100px;
+  margin-left: 30%;
+  background-image: url(../img/doc.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blocco p, .blocco2 p{
+  font-size: 13px;
+  margin: 5px;
+  border-top: 1px solid black;
+}
+
+.blocco2::after{
+  content:'';
+  display: table;
+  clear: both;
+}
