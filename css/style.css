@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+
+.header-background{
+  height: 400px;
+  /* margin: auto; */
+  background-color: blue;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.header-background img{
+  float: left;
+  margin-left: 15%;
+}
+
+.header-background ul{
+  margin-left: 35%;
+}
+
+.header-background li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+  line-height: 38px;
+  float: left;
+}
+
+.header-background a{
+  text-decoration: none;
+  color: white;
+}
+
+.right-nav{
+  margin-left: 50%;
+}
